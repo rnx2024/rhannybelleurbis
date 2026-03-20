@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  background: hsl(210 35% 98%);
+  color: hsl(222 24% 18%);
+}
+
+body {
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(30, 64, 175, 0.08), transparent 40%),
+    radial-gradient(circle at 82% 18%, rgba(14, 116, 144, 0.08), transparent 35%),
+    linear-gradient(180deg, hsl(210 35% 99%), hsl(210 30% 96%));
+}
+
+.bg-grid {
+  background-size: 26px 26px;
+}
+
+::selection {
+  background: rgba(30, 64, 175, 0.16);
+}
