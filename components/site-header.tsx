@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { profile } from "@/data/site";
 
@@ -11,12 +12,22 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-background/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-        <Link href="/" className="group">
-          <div className="font-display text-3xl font-semibold tracking-wide text-[#87CEFA]">
-            {profile.name}
-          </div>
-          <div className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
-            {profile.role}
+        <Link href="/" className="group flex items-center gap-3">
+          <Image
+            src="/rnx-logo.png"
+            alt="RNX logo"
+            width={52}
+            height={52}
+            className="h-[52px] w-[52px] rounded-2xl object-cover"
+            priority
+          />
+          <div>
+            <div className="font-display text-3xl font-semibold tracking-wide text-[#87CEFA]">
+              {profile.name}
+            </div>
+            <div className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
+              {profile.role}
+            </div>
           </div>
         </Link>
         <nav className="flex items-center gap-4 text-sm text-muted-foreground">
