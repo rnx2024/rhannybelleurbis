@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
   basePath: isProd ? repo : "",
+  images: {
+    unoptimized: true,
+  },
   turbopack: {
     root: process.cwd(),
   },
