@@ -1,4 +1,4 @@
-import { Mail, Linkedin, MapPin } from "lucide-react";
+import { Github, Mail, Linkedin, MapPin } from "lucide-react";
 import { SectionHeading } from "@/components/section-heading";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -8,8 +8,10 @@ const strengths = [
   "AI automation engineering",
   "Backend API design",
   "Workflow orchestration",
+  "ETL pipelines",
   "RAG and retrieval systems",
-  "Long-running job architecture",
+  "Voice pipeline design",
+  "Search pipeline design",
   "Operational reliability",
   "Data analysis and reporting",
 ];
@@ -31,12 +33,13 @@ export default function AboutPage() {
           <CardContent className="space-y-5 text-base leading-8 text-muted-foreground">
             <p>
               {profile.name} is an AI Automation Engineer and Backend Engineer who builds systems that support
-              end-to-end business operations. The focus is on security, reliability, maintainability, and clear system
-              boundaries.
+              end-to-end business operations. The focus is on designing efficient, reliable, and secure backend
+              systems, APIs, and AI agents with clear system boundaries and production-ready maintainability.
             </p>
             <p>
-              Current work spans AI agents, retrieval pipelines, automation services, reporting flows, long-running
-              processing jobs, and backend services designed for production use.
+              Current work spans voice pipelines, search and retrieval pipelines, ETL workflows, automation services,
+              reporting flows, and backend platforms built for customer support, recruitment, and quality assurance
+              use cases in production.
             </p>
             <div className="flex flex-wrap gap-2">
               {strengths.map((item) => (
@@ -61,6 +64,9 @@ export default function AboutPage() {
             </a>
             <a href={profile.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-foreground">
               <Linkedin className="h-4 w-4 text-sky-700" /> LinkedIn profile
+            </a>
+            <a href={profile.github} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-foreground">
+              <Github className="h-4 w-4 text-sky-700" /> GitHub profile
             </a>
           </CardContent>
         </Card>

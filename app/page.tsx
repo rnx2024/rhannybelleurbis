@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, ExternalLink, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -14,7 +14,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 pb-16 pt-16 md:pb-24 md:pt-24">
         <div className="grid gap-10 md:grid-cols-[1.2fr_0.8fr] md:items-end">
           <div className="space-y-6">
-            <Badge className="w-fit">AI Agents • Backend Systems • Workflow Automation</Badge>
+            <Badge className="w-fit">AI Agents • Backend Systems • Workflow Automation • ETL Pipelines</Badge>
             <div className="space-y-4">
               <h1 className="font-display max-w-4xl text-4xl font-semibold tracking-tight text-foreground md:text-6xl md:leading-[1.05]">
                 Building dependable AI systems for real business operations.
@@ -45,6 +45,9 @@ export default function HomePage() {
                 </a>
                 <a className="flex items-center gap-2 hover:text-foreground" href={profile.linkedin} target="_blank" rel="noreferrer">
                   <Linkedin className="h-4 w-4 text-sky-700" /> LinkedIn
+                </a>
+                <a className="flex items-center gap-2 hover:text-foreground" href={profile.github} target="_blank" rel="noreferrer">
+                  <Github className="h-4 w-4 text-sky-700" /> GitHub
                 </a>
               </div>
             </CardContent>
