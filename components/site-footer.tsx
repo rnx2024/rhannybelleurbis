@@ -1,4 +1,4 @@
-import { Mail, Linkedin } from "lucide-react";
+import { Github, Mail, Linkedin } from "lucide-react";
 import { profile } from "@/data/site";
 
 export function SiteFooter() {
@@ -15,6 +15,9 @@ export function SiteFooter() {
           </a>
           <a href={profile.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-foreground">
             <Linkedin className="h-4 w-4 text-sky-700" /> LinkedIn
+          </a>
+          <a href={profile.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-foreground">
+            <Github className="h-4 w-4 text-sky-700" /> GitHub
           </a>
         </div>
       </div>

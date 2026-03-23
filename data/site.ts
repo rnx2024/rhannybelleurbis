@@ -8,7 +8,7 @@ export const profile = {
   location: "Ilocos Sur, Philippines",
   email: "raniurbis@gmail.com",
   linkedin: "https://www.linkedin.com/in/rhanny-belle-urbis",
-  github: "https://github.com/",
+  github: "https://www.github.com/rnx2024",
 };
 
 export const projectCategories = [
