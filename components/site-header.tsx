@@ -8,13 +8,15 @@ const nav = [
   { href: "/articles", label: "Articles" },
 ];
 
+const logoSrc = process.env.NODE_ENV === "production" ? "/rhannybelleurbis/rnx-logo.png" : "/rnx-logo.png";
+
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-background/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
         <Link href="/" className="group flex items-center gap-3">
           <Image
-            src="/rnx-logo.png"
+            src={logoSrc}
             alt="RNX logo"
             width={52}
             height={52}
