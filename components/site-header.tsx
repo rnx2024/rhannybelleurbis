@@ -4,6 +4,7 @@ import { profile } from "@/data/site";
 
 const nav = [
   { href: "/about", label: "About" },
+  { href: "/work-experience", label: "Work Experience" },
   { href: "/ai-ml-projects", label: "AI/ML Projects" },
   { href: "/articles", label: "Articles" },
 ];

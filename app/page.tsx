@@ -27,8 +27,11 @@ export default function HomePage() {
               <Button href="/ai-ml-projects" size="lg">
                 View AI/ML projects <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button href="/articles" variant="outline" size="lg">
+              <Button href="/articles" size="lg">
                 Read articles
+              </Button>
+              <Button href="/rhanny-belle-urbis-resume.pdf" variant="secondary" size="lg">
+                Download Resume
               </Button>
             </div>
           </div>

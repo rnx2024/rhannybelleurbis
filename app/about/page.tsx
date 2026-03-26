@@ -32,9 +32,10 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent className="space-y-5 text-base leading-8 text-muted-foreground">
             <p>
-              {profile.name} is an AI Automation Engineer and Backend Engineer who builds systems that support
-              end-to-end business operations. The focus is on designing efficient, reliable, and secure backend
-              systems, APIs, and AI agents with clear system boundaries and production-ready maintainability.
+              AI Automation & Backend Engineer specializing in n8n-based production workflows, ETL pipelines, and
+              API-driven systems. Strong experience designing reliable automations using n8n, Python, FastAPI, and
+              databases, with a focus on observability, retries, idempotency, and secure integrations. With 10+ years
+              in NGO research and analytics.
             </p>
             <p>
               Current work spans voice pipelines, search and retrieval pipelines, ETL workflows, automation services,
@@ -71,6 +72,7 @@ export default function AboutPage() {
           </CardContent>
         </Card>
       </div>
+
     </main>
   );
 }

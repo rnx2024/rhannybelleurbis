@@ -60,6 +60,51 @@ export const projectCategories = [
   },
 ];
 
+export const workExperience = [
+  {
+    role: "AI Automation Engineer",
+    company: "PopAI Technologies",
+    period: "August 2025 – Present",
+    highlights: [
+      "Design and maintain production n8n workflows using webhooks, databases, AI agents, HTTP nodes, code nodes, IF/Switch logic, error triggers, and retry strategies.",
+      "Build event-driven n8n pipelines integrated with LangChain agents, FastAPI services, PostgreSQL/Supabase, CRMs, Slack, Telegram, Google Workspace, voice, search APIs, and other third-party APIs.",
+      "Design ETL-based automated reporting and FastAPI apps with AI and third-party integrations (Google Workspace, AWS S3, Zendesk, search APIs, voice APIs).",
+      "Implement monitoring, failure handling, and notification workflows for long-running and async processes.",
+      "Collaborate with project managers, frontend, QA, and users to deliver user-centric functionality.",
+      "Create agent documentation, QA guides, and conduct API testing to ensure optimal agent performance.",
+    ],
+  },
+  {
+    role: "Team Lead / AI Specialist",
+    company: "Behavior Education Services Team (BEST)",
+    period: "March 2025 – August 2025",
+    highlights: [
+      "Led process improvements, automated workflow development, and AI solutions that increased productivity in Global HR and BA Recruitment by 50%.",
+      "Led the design and development of an automated OCR and information extraction app for tenant application forms for Evercrest Homes.",
+      "Designed training materials and conducted AI training across departments to achieve 86% business AI fluency.",
+    ],
+  },
+  {
+    role: "Remote Placement Specialist / Data Analyst",
+    company: "Talents2Germany",
+    period: "August 2024 – March 2025",
+    highlights: [
+      "Automated HR, recruitment, and reporting workflows using Python, Apps Script, and APIs.",
+      "Reduced manual steps via scheduled, webhook-based, and conditional workflows.",
+      "Increased team productivity by 50% through automation of candidate job application updates and FAQ chatbot development.",
+      "Designed and developed automated data analysis and predictive analysis to support business strategy and decision-making.",
+    ],
+  },
+  {
+    role: "Campaigns, Advocacy, and Networking Staff (Ilocos Region)",
+    company: "Katinnulong Dagiti Umili iti Amianan, Inc.",
+    period: "October 2010 – May 2020",
+    highlights: [
+      "Led 30+ comprehensive research, automated, and predictive data analysis projects that supported the organization’s funding efforts.",
+    ],
+  },
+];
+
 export const articles = [
   {
     title: "Embeddings vs. Re-Ranking: How to Use Each",
