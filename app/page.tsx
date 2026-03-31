@@ -84,7 +84,7 @@ export default function HomePage() {
             <Badge className="w-fit">AI Agents • Backend Systems • Workflow Automation • ETL Pipelines • Full Stack Apps</Badge>
             <div className="space-y-4">
               <h1 className="font-display max-w-4xl text-4xl font-semibold tracking-tight text-foreground md:text-6xl md:leading-[1.05]">
-                Building dependable AI systems for real business operations.
+                Building dependable AI and full-stack systems for real business operations.
               </h1>
               <p className="max-w-3xl text-lg leading-8 text-muted-foreground">
                 {profile.shortBio}

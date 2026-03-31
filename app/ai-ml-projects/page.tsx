@@ -11,7 +11,7 @@ export default function AIMLProjectsPage() {
       <SectionHeading
         eyebrow="AI/ML Projects"
         title="Applied AI/ML work across apps and data studies"
-        description="A focused collection of applied AI applications and data-led case studies built for clarity, reliability, and real-world use."
+        description="A focused collection of applied AI applications and data-led case studies, spanning Streamlit prototypes and TypeScript/Next.js full-stack builds."
       />
 
       <div className="mt-10 space-y-12">
