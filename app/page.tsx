@@ -8,13 +8,80 @@ import { articles, profile, projectCategories } from "@/data/site";
 const featuredProjects = projectCategories.flatMap((category) => category.items).slice(0, 3);
 const featuredArticles = articles.slice(0, 4);
 
+const technicalSkills = [
+  {
+    title: "Automation & Orchestration",
+    items: ["JavaScript", "n8n", "Make", "Zapier", "Webhooks", "Event-driven workflows"],
+  },
+  {
+    title: "Backend & APIs",
+    items: ["Python", "FastAPI", "REST APIs", "Async processing"],
+  },
+  {
+    title: "Databases & Vector Storage",
+    items: ["PostgreSQL", "Supabase", "SQLite", "pgvector", "Milvus"],
+  },
+  {
+    title: "AI / LLM / Speech",
+    items: [
+      "LangChain",
+      "LangGraph",
+      "RAG",
+      "OpenRouter",
+      "Exa",
+      "ManusAI",
+      "Whisper",
+      "ElevenLabs Scribe",
+      "Tavus",
+      "Recall.ai",
+      "LiveKit",
+    ],
+  },
+  {
+    title: "Search & External Data",
+    items: ["Tavily", "Exa", "DuckDuckGo API"],
+  },
+  {
+    title: "ETL, File & Data Processing",
+    items: ["pandas", "JSON", "YAML", "OpenPyXL", "CSV", "MarkItDown", "HTML", "PDF processing", "OCR", "Jinja2"],
+  },
+  {
+    title: "Data Analysis & Visualization",
+    items: ["R", "Python", "SQL", "Excel", "Tableau", "Power BI"],
+  },
+  {
+    title: "Dev Tools, Deployment & Integrations",
+    items: [
+      "VS Code",
+      "OpenAI Codex",
+      "Git",
+      "GitHub",
+      "Postman",
+      "Docker",
+      "Render",
+      "Vercel",
+      "Slack",
+      "Telegram",
+      "HubSpot",
+      "Zoho CRM",
+      "Zoho Recruit",
+      "Zendesk",
+      "Google Workspace",
+    ],
+  },
+  {
+    title: "Full-Stack Development",
+    items: ["FastAPI", "Supabase", "Upstash", "Redis", "TypeScript", "Next.js", "React", "Vite"],
+  },
+];
+
 export default function HomePage() {
   return (
     <main>
       <section className="mx-auto max-w-6xl px-4 pb-16 pt-16 md:pb-24 md:pt-24">
         <div className="grid gap-10 md:grid-cols-[1.2fr_0.8fr] md:items-end">
           <div className="space-y-6">
-            <Badge className="w-fit">AI Agents • Backend Systems • Workflow Automation • ETL Pipelines</Badge>
+            <Badge className="w-fit">AI Agents • Backend Systems • Workflow Automation • ETL Pipelines • Full Stack Apps</Badge>
             <div className="space-y-4">
               <h1 className="font-display max-w-4xl text-4xl font-semibold tracking-tight text-foreground md:text-6xl md:leading-[1.05]">
                 Building dependable AI systems for real business operations.
@@ -55,6 +122,32 @@ export default function HomePage() {
               </div>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-16">
+        <SectionHeading
+          eyebrow="Technical skills"
+          title="Technical Skills"
+          description="A focused snapshot of the tools and platforms used to deliver production automation, APIs, and AI systems."
+        />
+        <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {technicalSkills.map((group) => (
+            <Card key={group.title}>
+              <CardHeader>
+                <CardTitle className="text-xl">{group.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  {group.items.map((item) => (
+                    <Badge key={item} variant="secondary">
+                      {item}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </section>
 
