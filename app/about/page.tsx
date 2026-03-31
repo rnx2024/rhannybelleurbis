@@ -8,6 +8,7 @@ const strengths = [
   "AI automation engineering",
   "Backend API design",
   "Workflow orchestration",
+  "Full-stack development",
   "ETL pipelines",
   "RAG and retrieval systems",
   "Voice pipeline design",
@@ -21,7 +22,7 @@ export default function AboutPage() {
     <main className="mx-auto max-w-6xl px-4 py-16 md:py-24">
       <SectionHeading
         eyebrow="About"
-        title="Backend-first AI engineering with practical production focus"
+        title="Backend-first AI and full-stack engineering with practical production focus"
         description={profile.longBio}
       />
 
@@ -34,8 +35,9 @@ export default function AboutPage() {
             <p>
               AI Automation & Backend Engineer specializing in n8n-based production workflows, ETL pipelines, and
               API-driven systems. Strong experience designing reliable automations using n8n, Python, FastAPI, and
-              databases, with a focus on observability, retries, idempotency, and secure integrations. With 10+ years
-              in NGO research and analytics.
+              databases, with a focus on observability, retries, idempotency, and secure integrations. Full-stack
+              delivery across Streamlit and TypeScript/Next.js apps when needed. With 10+ years in NGO research and
+              analytics.
             </p>
             <p>
               Current work spans voice pipelines, search and retrieval pipelines, ETL workflows, automation services,
