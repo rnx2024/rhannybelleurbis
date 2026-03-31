@@ -36,8 +36,7 @@ export default function AboutPage() {
               AI Automation & Backend Engineer specializing in n8n-based production workflows, ETL pipelines, and
               API-driven systems. Strong experience designing reliable automations using n8n, Python, FastAPI, and
               databases, with a focus on observability, retries, idempotency, and secure integrations. Full-stack
-              delivery across Streamlit and TypeScript/Next.js apps when needed. With 10+ years in NGO research and
-              analytics.
+              delivery across Streamlit and TypeScript/Next.js apps. With 10+ years in NGO research and analytics.
             </p>
             <p>
               Current work spans voice pipelines, search and retrieval pipelines, ETL workflows, automation services,
