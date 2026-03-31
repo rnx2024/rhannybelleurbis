@@ -9,7 +9,8 @@ const nav = [
   { href: "/articles", label: "Articles" },
 ];
 
-const logoSrc = process.env.NODE_ENV === "production" ? "/rhannybelleurbis/rnx-logo.png" : "/rnx-logo.png";
+const isGithubPages = process.env.GITHUB_PAGES === "true";
+const logoSrc = isGithubPages ? "/rhannybelleurbis/rnx-logo.png" : "/rnx-logo.png";
 
 export function SiteHeader() {
   return (
