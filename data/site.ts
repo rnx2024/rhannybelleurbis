@@ -62,16 +62,26 @@ export const projectCategories = [
 
 export const workExperience = [
   {
+    role: "AI Automation Engineer (Part-Time)",
+    company: "Strategic AI Consultants",
+    period: "March 2026 – Present",
+    highlights: [
+      "Automated manual predictive lead scoring and saved up to 75% of team time by building a full-stack predictive lead scoring system orchestrated with n8n and integrated with WelcomeHome CRM, Google Sheets, Google Drive, and Supabase.",
+      "Saved up to 3 hours per client by building an n8n client onboarding system integrated with Google Sheets, ClickUp, Gmail, and Slack.",
+      "Analyze processes and recommend the best tools and automation solutions to deliver efficient and secure enhancements across sales, marketing, and operations.",
+    ],
+  },
+  {
     role: "AI Automation Engineer",
     company: "PopAI Technologies",
-    period: "August 2025 – Present",
+    period: "August 2025 – April 2026",
     highlights: [
-      "Design and maintain production n8n workflows using webhooks, databases, AI agents, HTTP nodes, code nodes, IF/Switch logic, error triggers, and retry strategies.",
-      "Build event-driven n8n pipelines integrated with LangChain agents, FastAPI services, PostgreSQL/Supabase, CRMs, Slack, Telegram, Google Workspace, voice, search APIs, and other third-party APIs.",
-      "Design ETL-based automated reporting and FastAPI apps with AI and third-party integrations (Google Workspace, AWS S3, Zendesk, search APIs, voice APIs).",
-      "Implement monitoring, failure handling, and notification workflows for long-running and async processes.",
-      "Collaborate with project managers, frontend, QA, and users to deliver user-centric functionality.",
-      "Create agent documentation, QA guides, and conduct API testing to ensure optimal agent performance.",
+      "Built five major features of a RAG agent and delivered backends for three standalone sales agents and four recruitment agents integrated into an enterprise agentic AI platform (PopAI Knowledge Manager, PopAI Sales Agents, PopAI Recruitment Agents).",
+      "Automated 30–50% of client workflow processes by building n8n workflows integrated with LangChain agents, FastAPI services, PostgreSQL/Supabase, CRMs, Slack, Telegram, Google Workspace, and voice/search APIs.",
+      "Designed and built ETL-based automated reporting, KPI monitoring, websocket-based message monitoring, and quality assurance systems as part of internal agentic AI solutions.",
+      "Implemented monitoring, Agno migration, failure handling, and notification workflows for internal and production workflows and agents.",
+      "Collaborated with project managers, frontend, QA, and end-users to ensure user-centric requirements.",
+      "Created user and technical documentation, QA guides, and conducted API testing to ensure optimum agent performance.",
     ],
   },
   {
