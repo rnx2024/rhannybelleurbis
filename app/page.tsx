@@ -11,15 +11,15 @@ const featuredArticles = articles.slice(0, 4);
 const technicalSkills = [
   {
     title: "Automation & Orchestration",
-    items: ["JavaScript", "n8n", "Make", "Zapier", "Webhooks", "Event-driven workflows"],
+    items: ["JavaScript", "Google Apps Script", "n8n", "Make", "Zapier", "Webhooks", "Event-driven workflows"],
   },
   {
     title: "Backend & APIs",
-    items: ["Python", "FastAPI", "REST APIs", "Async processing"],
+    items: ["Python", "Django", "FastAPI", "REST APIs", "Async processing"],
   },
   {
     title: "Databases & Vector Storage",
-    items: ["PostgreSQL", "Supabase", "SQLite", "pgvector", "Milvus"],
+    items: ["PostgreSQL", "SQLite", "pgvector", "Milvus"],
   },
   {
     title: "AI / LLM / Speech",
@@ -39,7 +39,7 @@ const technicalSkills = [
   },
   {
     title: "Search & External Data",
-    items: ["Tavily", "Exa", "DuckDuckGo API"],
+    items: ["Tavily", "Exa", "DuckDuckGo"],
   },
   {
     title: "ETL, File & Data Processing",
@@ -50,28 +50,47 @@ const technicalSkills = [
     items: ["R", "Python", "SQL", "Excel", "Tableau", "Power BI"],
   },
   {
-    title: "Dev Tools, Deployment & Integrations",
+    title: "Dev Tools & Deployment",
     items: [
       "VS Code",
       "OpenAI Codex",
-      "Git",
-      "GitHub",
+      "Claude Code",
       "Postman",
       "Docker",
       "Render",
       "Vercel",
-      "Slack",
-      "Telegram",
-      "HubSpot",
-      "Zoho CRM",
-      "Zoho Recruit",
-      "Zendesk",
-      "Google Workspace",
+    ],
+  },
+  {
+    title: "API Integrations",
+    items: ["Firecrawl", "Slack", "Telegram", "HubSpot", "Zoho", "WelcomeHome", "Zendesk", "Google Workspace"],
+  },
+  {
+    title: "IaC, Version Control & CI/CD",
+    items: ["Terraform", "Git", "GitHub", "GitHub Actions"],
+  },
+  {
+    title: "Automated Testing",
+    items: ["Postman", "PyTest", "Ruff", "Linting"],
+  },
+  {
+    title: "Cloud",
+    items: [
+      "Azure ACR",
+      "Azure Container Apps",
+      "Azure Key Vault",
+      "Azure RBAC",
+      "Azure Managed Identity",
+      "GCP Cloud Run",
+      "GCP Artifact Registry",
+      "GCP GCS",
+      "GCP Secret Manager",
+      "GCP IAM / Service Accounts",
     ],
   },
   {
     title: "Full-Stack Development",
-    items: ["FastAPI", "Supabase", "Upstash", "Redis", "TypeScript", "Next.js", "React", "Vite"],
+    items: ["FastAPI", "Upstash", "Redis", "TypeScript", "Next.js", "React", "Vite"],
   },
 ];
 
