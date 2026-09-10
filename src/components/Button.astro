@@ -1,0 +1,7 @@
+---
+type Variant = "default" | "outline";
+const { href, variant = "default", class: className = "" } = Astro.props as { href?: string; variant?: Variant; class?: string };
+const styles = { default: "bg-[#87CEFA] text-[#0B3B5E] shadow-sm hover:bg-[#74C6F5]", outline: "border border-[#87CEFA] bg-white text-[#0B3B5E] hover:bg-[#E7F6FF]" };
+const classes = `inline-flex h-11 items-center justify-center rounded-xl px-6 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${styles[variant] || styles.default} ${className}`;
+---
+{href ? <a href={href} class={classes} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noreferrer" : undefined}><slot /></a> : <button class={classes}><slot /></button>}

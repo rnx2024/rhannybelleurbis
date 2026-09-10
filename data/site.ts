@@ -1,10 +1,8 @@
 export const profile = {
   name: "Rhanny Belle Urbis",
-  role: "AI Automation Engineer / Backend Engineer",
+  role: "AI Engineer | Automation Engineer | Backend Engineer",
   shortBio:
-    "I build AI-driven backend systems, workflow automations, and agent-based services that handle real business operations with stability, traceability, and practical deployment in mind.",
-  longBio:
-    "My work focuses on dependable AI systems that collect, organize, analyze, and transform information into usable outputs for business teams. I design backends and automation pipelines that can process high volumes of data, avoid duplicate work, support long-running tasks, and remain maintainable in production.",
+    "I build backend systems, agents, agentic AI, and workflow automations, to handle business processes and operations with security and reliability.",
   location: "Ilocos Sur, Philippines",
   email: "raniurbis@gmail.com",
   linkedin: "https://www.linkedin.com/in/rhanny-belle-urbis",
@@ -15,6 +13,12 @@ export const projectCategories = [
   {
     title: "AI Apps",
     items: [
+      {
+        name: "TripBites",
+        summary: "Agent-driven travel and food exploration app using LangGraph + ReAct-style orchestration.",
+        stack: ["TypeScript", "Next.js", "LangGraph", "ReAct"],
+        href: "https://news-weather-agent-frontend.vercel.app",
+      },
       {
         name: "VoiceBuddy",
         summary: "Voice-focused AI app using OpenAI TTS for interactive speech generation and practical experimentation.",
@@ -27,48 +31,30 @@ export const projectCategories = [
         stack: ["Python", "Streamlit", "LlamaIndex"],
         href: "https://chatbot-insurance-ver1.streamlit.app",
       },
-      {
-        name: "TripBites",
-        summary: "Agent-driven travel and food exploration app using LangGraph + ReAct-style orchestration.",
-        stack: ["TypeScript", "Next.js", "LangGraph", "ReAct"],
-        href: "https://news-weather-agent-frontend.vercel.app",
-      },
-    ],
-  },
-  {
-    title: "AI/ML Case Studies",
-    items: [
-      {
-        name: "Germany Tech Market: Trends & Forecast",
-        summary: "Market trend and forecast analysis of the German tech sector with a structured narrative and visuals.",
-        stack: ["Forecasting", "Time Series", "RPubs"],
-        href: "https://rpubs.com/rnx2024/trends-and-forecast-germany-tech-market",
-      },
-      {
-        name: "Revenue Forecast 2025: Top 12 German Companies",
-        summary: "Revenue forecasting analysis for 12 German companies with comparative insights and projections.",
-        stack: ["Forecasting", "Financial Analysis", "RPubs"],
-        href: "https://rpubs.com/rnx2024/revenue-forecast-2025-for-top-12-german-companies",
-      },
-      {
-        name: "Philippine Presidents: Mapped Profiles",
-        summary: "Exploratory data story mapping presidential candidates and presidents across key attributes.",
-        stack: ["Data Viz", "EDA", "RPubs"],
-        href: "https://rpubs.com/rnx2024/philippine-presidential-candidates-and-presidents-mapped-profiles",
-      },
     ],
   },
 ];
 
 export const workExperience = [
   {
-    role: "AI Automation Engineer (Part-Time)",
-    company: "Strategic AI Consultants",
-    period: "March 2026 – Present",
+    role: "AI & Automation Engineer",
+    company: "Cadence Education",
+    period: "June 2026 – Present",
     highlights: [
-      "Automated manual predictive lead scoring and saved up to 75% of team time by building a full-stack predictive lead scoring system orchestrated with n8n and integrated with WelcomeHome CRM, Google Sheets, Google Drive, and Supabase.",
-      "Saved up to 3 hours per client by building an n8n client onboarding system integrated with Google Sheets, ClickUp, Gmail, and Slack.",
-      "Analyze processes and recommend the best tools and automation solutions to deliver efficient and secure enhancements across sales, marketing, and operations.",
+      "Analyze, improve, debug, and manage existing workflows and automations to ensure 100% serviceability to branches.",
+      "Build OpenWorkflows and implement migrations from Power Automate, Make, and n8n workflows to ensure the security and reliability of business automations.",
+      "Create requirements analyses, build plans and designs, and workflow and agent documentation to ensure development and implementation meet acceptance criteria, business requirements, and security rules.",
+    ],
+  },
+  {
+    role: "AI Automation Engineer (Freelance)",
+    company: "Strategic AI Consultants",
+    period: "March 2026 – May 2026",
+    highlights: [
+      "Built an n8n-orchestrated predictive lead scoring workflow, reducing manual lead review time by up to 75%.",
+      "Developed a client onboarding automation, reducing setup time by up to 3 hours per client.",
+      "Worked with the Founder/CEO in client discovery and onboarding for project implementation and handoff.",
+      "Improved workflows through ongoing review, maintenance, and audits, reducing integration risks and identifying new automation opportunities.",
     ],
   },
   {
@@ -76,12 +62,11 @@ export const workExperience = [
     company: "PopAI Technologies",
     period: "August 2025 – April 2026",
     highlights: [
-      "Built five major features of a RAG agent and delivered backends for three standalone sales agents and four recruitment agents integrated into an enterprise agentic AI platform (PopAI Knowledge Manager, PopAI Sales Agents, PopAI Recruitment Agents).",
-      "Automated 30–50% of client workflow processes by building n8n workflows integrated with LangChain agents, FastAPI services, PostgreSQL/Supabase, CRMs, Slack, Telegram, Google Workspace, and voice/search APIs.",
-      "Designed and built ETL-based automated reporting, KPI monitoring, websocket-based message monitoring, and quality assurance systems as part of internal agentic AI solutions.",
-      "Implemented monitoring, Agno migration, failure handling, and notification workflows for internal and production workflows and agents.",
-      "Collaborated with project managers, frontend, QA, and end-users to ensure user-centric requirements.",
-      "Created user and technical documentation, QA guides, and conducted API testing to ensure optimum agent performance.",
+      "Developed AI and data workflow backends for enterprise agentic AI products, including PopAI Knowledge Manager (RAG), Sales Agents, and Recruitment Agents.",
+      "Built ETL-based automated reporting pipelines, KPI monitoring systems, websocket-based message monitoring, and QA data systems for internal operations.",
+      "Built n8n workflows, LangChain and LangGraph agents, and FastAPI services.",
+      "Implemented production monitoring, failure handling, notification workflows, API testing, QA guides, and documentation for internal and client-facing AI agents.",
+      "Collaborated with project managers, frontend developers, QA teams, and end-users to translate requirements into reliable automation and AI workflow features.",
     ],
   },
   {
@@ -99,10 +84,9 @@ export const workExperience = [
     company: "Talents2Germany",
     period: "August 2024 – March 2025",
     highlights: [
-      "Automated HR, recruitment, and reporting workflows using Python, Apps Script, and APIs.",
-      "Reduced manual steps via scheduled, webhook-based, and conditional workflows.",
+      "Automated HR, recruitment, and reporting workflows using JavaScript/TypeScript, Python, and APIs.",
       "Increased team productivity by 50% through automation of candidate job application updates and FAQ chatbot development.",
-      "Designed and developed automated data analysis and predictive analysis to support business strategy and decision-making.",
+      "Designed and developed automated data analysis and predictive data analysis to help formulate business strategies and support decision-making.",
     ],
   },
   {

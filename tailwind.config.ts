@@ -2,15 +2,14 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
+    "./src/**/*.{astro,ts,tsx}",
     "./data/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-manrope)", "system-ui", "sans-serif"],
-        display: ["var(--font-newsreader)", "serif"],
+        sans: ["Arial", "Calibri", "sans-serif"],
+        display: ["Arial", "Calibri", "sans-serif"],
       },
       colors: {
         background: "hsl(210 35% 98%)",
