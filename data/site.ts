@@ -15,7 +15,7 @@ export const projectCategories = [
     items: [
       {
         name: "TripBites",
-        summary: "Agent-driven travel and food exploration app using LangGraph + ReAct-style orchestration.",
+        summary: "Agent-driven travel intelligence app using LangGraph + ReAct-style orchestration.",
         stack: ["TypeScript", "Next.js", "LangGraph", "ReAct"],
         href: "https://news-weather-agent-frontend.vercel.app",
       },
