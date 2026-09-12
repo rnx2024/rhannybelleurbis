@@ -84,7 +84,7 @@ export const workExperience = [
     company: "Talents2Germany",
     period: "August 2024 – March 2025",
     highlights: [
-      "Automated HR, recruitment, and reporting workflows using JavaScript/TypeScript, Python, and APIs.",
+      "Automated HR, recruitment, and reporting workflows using JavaScript, Python, and APIs.",
       "Increased team productivity by 50% through automation of candidate job application updates and FAQ chatbot development.",
       "Designed and developed automated data analysis and predictive data analysis to help formulate business strategies and support decision-making.",
     ],
