@@ -1,8 +1,8 @@
 export const profile = {
   name: "Rhanny Belle Urbis",
-  role: "AI Engineer | Automation Engineer | Backend Engineer",
+  role: "AI Automation Engineer | Backend Systems & AI Agents",
   shortBio:
-    "I build backend systems, agents, agentic AI, and workflow automations, to handle business processes and operations with security and reliability.",
+    "I build backend services, AI workflows, and automations that help teams reduce manual work, run reliably, and handle business data securely.",
   location: "Ilocos Sur, Philippines",
   email: "raniurbis@gmail.com",
   linkedin: "https://www.linkedin.com/in/rhanny-belle-urbis",
@@ -15,19 +15,28 @@ export const projectCategories = [
     items: [
       {
         name: "TripBites",
-        summary: "Agent-driven travel intelligence app using LangGraph + ReAct-style orchestration.",
+        summary: "A travel assistant built with Next.js and LangGraph. It uses a multi-step workflow to gather trip information and return a useful answer in one place.",
+        problem: "Trip planning often means checking several sources and pulling the details together by hand.",
+        built: "Built the interface in Next.js and the workflow in LangGraph, using a ReAct-style approach to break requests into smaller tasks.",
+        engineeringNote: "The project focuses on workflow orchestration rather than treating the app as a single chat prompt.",
         stack: ["TypeScript", "Next.js", "LangGraph", "ReAct"],
         href: "https://news-weather-agent-frontend.vercel.app",
       },
       {
         name: "VoiceBuddy",
-        summary: "Voice-focused AI app using OpenAI TTS for interactive speech generation and practical experimentation.",
+        summary: "A document-to-audio app that summarizes uploaded documents and turns the summary—or the full document—into narration using OpenAI TTS.",
+        problem: "Long documents are not always convenient to read, especially when someone needs to review them away from a screen.",
+        built: "Built a Streamlit interface that accepts documents, creates a summary when requested, and generates narrated audio.",
+        engineeringNote: "The app supports both summarized and full-document narration instead of forcing one workflow on every document.",
         stack: ["Python", "Streamlit", "OpenAI TTS"],
         href: "https://voicebuddy-ai-ver1.streamlit.app",
       },
       {
         name: "CarInsure Bot",
-        summary: "Insurance assistant application built around retrieval and guided interaction patterns.",
+        summary: "A question-and-answer app for car-insurance documents. It retrieves relevant policy information before answering questions in plain language.",
+        problem: "Insurance documents can be difficult to search when a policyholder needs a quick answer.",
+        built: "Built a Streamlit interface with LlamaIndex to retrieve relevant content before generating an answer.",
+        engineeringNote: "The retrieval step keeps the response tied to the available policy material instead of relying only on the model’s general knowledge.",
         stack: ["Python", "Streamlit", "LlamaIndex"],
         href: "https://chatbot-insurance-ver1.streamlit.app",
       },
@@ -41,9 +50,9 @@ export const workExperience = [
     company: "Cadence Education",
     period: "June 2026 – Present",
     highlights: [
-      "Analyze, improve, debug, and manage existing workflows and automations to ensure 100% serviceability to branches.",
-      "Build OpenWorkflows and implement migrations from Power Automate, Make, and n8n workflows to ensure the security and reliability of business automations.",
-      "Create requirements analyses, build plans and designs, and workflow and agent documentation to ensure development and implementation meet acceptance criteria, business requirements, and security rules.",
+      "Keep branch automations running by investigating failures, fixing workflows, and handling operational issues.",
+      "Rebuild selected Power Automate, Make, and n8n workflows as OpenWorkflows, with clearer failure handling and stronger control over integrations.",
+      "Turn business requirements into implementation plans, workflow and agent designs, acceptance criteria, and documentation.",
     ],
   },
   {
@@ -53,8 +62,8 @@ export const workExperience = [
     highlights: [
       "Built an n8n-orchestrated predictive lead scoring workflow, reducing manual lead review time by up to 75%.",
       "Developed a client onboarding automation, reducing setup time by up to 3 hours per client.",
-      "Worked with the Founder/CEO in client discovery and onboarding for project implementation and handoff.",
-      "Improved workflows through ongoing review, maintenance, and audits, reducing integration risks and identifying new automation opportunities.",
+      "Joined client-discovery calls with the founder, clarified requirements, and helped move projects through implementation and handoff.",
+      "Reviewed existing workflows, fixed integration issues, and identified follow-up automation work.",
     ],
   },
   {
@@ -62,11 +71,11 @@ export const workExperience = [
     company: "PopAI Technologies",
     period: "August 2025 – April 2026",
     highlights: [
-      "Developed AI and data workflow backends for enterprise agentic AI products, including PopAI Knowledge Manager (RAG), Sales Agents, and Recruitment Agents.",
-      "Built ETL-based automated reporting pipelines, KPI monitoring systems, websocket-based message monitoring, and QA data systems for internal operations.",
-      "Built n8n workflows, LangChain and LangGraph agents, and FastAPI services.",
-      "Implemented production monitoring, failure handling, notification workflows, API testing, QA guides, and documentation for internal and client-facing AI agents.",
-      "Collaborated with project managers, frontend developers, QA teams, and end-users to translate requirements into reliable automation and AI workflow features.",
+      "Built backend workflows for enterprise AI products, including a RAG knowledge manager, sales agents, and recruitment agents.",
+      "Built ETL and reporting pipelines, KPI monitoring systems, WebSocket message monitoring, and QA data systems for internal operations.",
+      "Developed n8n workflows, LangChain and LangGraph agents, and FastAPI services.",
+      "Added monitoring, failure handling, notifications, API tests, QA guides, and documentation for internal and client-facing AI agents.",
+      "Worked with project managers, frontend developers, QA teams, and end users to turn requirements into working automation and AI features.",
     ],
   },
   {
@@ -74,9 +83,9 @@ export const workExperience = [
     company: "Behavior Education Services Team (BEST)",
     period: "March 2025 – August 2025",
     highlights: [
-      "Led process improvements, automated workflow development, and AI solutions that increased productivity in Global HR and BA Recruitment by 50%.",
-      "Led the design and development of an automated OCR and information extraction app for tenant application forms for Evercrest Homes.",
-      "Designed training materials and conducted AI training across departments to achieve 86% business AI fluency.",
+      "Led HR and recruitment process improvements that increased team productivity by 50%.",
+      "Designed and built an OCR and information-extraction app for tenant application forms.",
+      "Created training materials and delivered AI training across departments, contributing to 86% business AI fluency.",
     ],
   },
   {
@@ -84,9 +93,9 @@ export const workExperience = [
     company: "Talents2Germany",
     period: "August 2024 – March 2025",
     highlights: [
-      "Automated HR, recruitment, and reporting workflows using JavaScript, Python, and APIs.",
-      "Increased team productivity by 50% through automation of candidate job application updates and FAQ chatbot development.",
-      "Designed and developed automated data analysis and predictive data analysis to help formulate business strategies and support decision-making.",
+      "Automated HR, recruitment, and reporting workflows using JavaScript/TypeScript, Python, and APIs.",
+      "Increased team productivity by 50% by automating candidate application updates and building an FAQ chatbot.",
+      "Built automated reporting and predictive-analysis workflows to support business planning and decision-making.",
     ],
   },
   {
@@ -94,7 +103,7 @@ export const workExperience = [
     company: "Katinnulong Dagiti Umili iti Amianan, Inc.",
     period: "October 2010 – May 2020",
     highlights: [
-      "Led 30+ comprehensive research, automated, and predictive data analysis projects that supported the organization’s funding efforts.",
+      "Led more than 30 research and data-analysis projects, including automated reporting and predictive analysis, to support the organization’s funding work.",
     ],
   },
 ];
