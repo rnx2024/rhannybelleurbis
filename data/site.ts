@@ -93,17 +93,9 @@ export const workExperience = [
     company: "Talents2Germany",
     period: "August 2024 – March 2025",
     highlights: [
-      "Automated HR, recruitment, and reporting workflows using JavaScript/TypeScript, Python, and APIs.",
+      "Automated HR, recruitment, and reporting workflows using JavaScript, Google Apps Script, and Python.",
       "Increased team productivity by 50% by automating candidate application updates and building an FAQ chatbot.",
       "Built automated reporting and predictive-analysis workflows to support business planning and decision-making.",
-    ],
-  },
-  {
-    role: "Campaigns, Advocacy, and Networking Staff (Ilocos Region)",
-    company: "Katinnulong Dagiti Umili iti Amianan, Inc.",
-    period: "October 2010 – May 2020",
-    highlights: [
-      "Led more than 30 research and data-analysis projects, including automated reporting and predictive analysis, to support the organization’s funding work.",
     ],
   },
 ];
